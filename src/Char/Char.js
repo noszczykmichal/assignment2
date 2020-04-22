@@ -10,7 +10,7 @@ const char = (props)=>{
         border: '1px solid black'
     }
 
-return <p style={style}>{props.character}</p>
+return <p style={style} onClick={props.clicked}>{props.character}</p>
 }
 
 export default char;
