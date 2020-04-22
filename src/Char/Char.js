@@ -10,7 +10,7 @@ const char = (props)=>{
         border: '1px solid black'
     }
 
-    return <p style={style}></p>
+return <p style={style}>{props.character}</p>
 }
 
 export default char;
